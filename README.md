@@ -1,4 +1,4 @@
-# # Pàgina Cine
+# Pàgina Cine
 
 _Creació d'una pàgina semblant a la de CINESA._
 
