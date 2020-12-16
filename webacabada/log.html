@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="estil.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>CINE+</h1>
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="index.html">Inici</a>
+        </li>
+        <li>
+          <a href="log.html">Entrar / Registrar</a>
+        </li>
+        <li>
+          <a>Cartellera</a>
+          <ul>
+            <li>
+              <a href="pelicules.html">Pel·lícules</a>
+            </li>
+            <li>
+              <a href="actors.html">Actors</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="comprar_entrades.html">Comprar Entrades</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Entrar / Registrar</h2>
+    <div id="login">
+      <form id="login_form">
+        <div class="field_container">
+          <input type="text" placeholder="Direcció Email">
+        </div>
+
+        <div class="field_container">
+          <input type="Password" placeholder="Contrasenya">
+          <button id="sign_in_button">
+            <span class="button_text">Entrar</span>
+          </button>
+        </div>
+
+        <div id="sign_in_options" class="field_container">
+          <div id="sign_in_alternatives_container">
+            <span id="google_sign_in_option">pots <a href="#" id="google_sign_in" class="login_link">entrar amb
+                Google</a></span>
+            <span id="password_sign_in_option">o <a href="#" id="password_sign_in" class="login_link">entrar utilitzen
+                contrasenya</a>.</span>
+          </div>
+          <div id="remember_me_container">
+            <input name="user[remember_me]" type="hidden" value="0"><input id="user_remember_me"
+              name="user[remember_me]" type="checkbox" value="1">
+            <label class="login_link" for="user_remember_me" id="remember_me_label">
+              Mantenir l'accés</label>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </form>
+      <div id="chrome_web_store" style="opacity: 1;"><span id="chrome_logo"></span>
+        <h2>
+          Feu servir Google Chrome? <a id="chrome_ad_link" href="#">
+            Obteniu l'inici de sessió</a> per Chrome!</h2>
+      </div>
+
+      <div id="dont_have_an_account">
+        <h2>
+          Necessites <a href="#" class="login_link">registrar-te</a> o <a href="#" id="forgot_password_link"
+            class="login_link">restablir</a> la contrasenya?
+        </h2>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Web creada per Martí</p>
+  </footer>
+
+</body>
+
+</html>
